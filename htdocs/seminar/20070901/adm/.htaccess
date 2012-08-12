@@ -1,0 +1,10 @@
+AuthUserFile /var/www/www.php.gr.jp/htdocs/seminar/20070901/adm/.htpasswd
+AuthGroupFile /dev/null
+AuthName "News Admin"
+AuthType Basic
+
+require valid-user
+<Files ~ "^.(htpasswd|htaccess)$">
+deny from all
+</Files>
+

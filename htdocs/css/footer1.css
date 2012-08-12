@@ -1,0 +1,26 @@
+/* footer */
+#footer{
+	clear: both;
+	padding: 9px 1% 9px 1%;
+  margin: 0px;
+  border: 0px;
+	font-size: 85%;
+	text-align: right;
+	background: #FFFFFF url(/images/footer.png) bottom repeat-x;
+}
+
+#footer img{
+  border: none;
+}
+
+
+#footer li{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	background-image: none;
+}
+
+#footer .sticker{
+	display: inline;
+}

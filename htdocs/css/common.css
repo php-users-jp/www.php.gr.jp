@@ -1,0 +1,182 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+body{
+	/* font-family: "Trebuchet MS", Sans-Serif; */
+	font-size: 100%;
+	color: #404040;
+	background-color: #FFFFFF;
+}
+
+a:link{
+	color: #3236A1;
+	background-color: transparent;
+	text-decoration: underline;
+}
+a:visited{
+	color: #424681;
+	background-color: transparent;
+	text-decoration: underline;
+}
+a:hover{
+	color: #CC7720;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+h1{
+	color: #202020;
+	background-color: transparent;
+	font-size: 150%;
+	margin-bottom: 0.4em;
+	border-bottom: 2px solid #C0C0C0;
+}
+h1 a:link,
+h1 a:visited,
+h1 a:hover{
+	text-decoration: none;
+}
+h2{
+	color: #202020;
+	background-color: transparent;
+	font-size: 136%;
+	margin-bottom: 0.4em;
+	border-bottom: 1px solid #C0C0C0;
+}
+h2 a:link,
+h2 a:visited,
+h2 a:hover{
+	text-decoration: none;
+}
+h3{
+	color: #202020;
+	background-color: transparent;
+	font-size: 122%;
+	margin-bottom: 0.4em;
+	margin-top: 0.4em;
+	border-bottom: 1px dashed #C0C0C0;
+}
+h3 a:link,
+h3 a:visited,
+h3 a:hover{
+	text-decoration: none;
+}
+
+p{
+	text-indent: 1em;
+	/* line-height: 130%; */
+	margin-bottom: 1em;
+}
+
+img{
+	border: none;
+}
+
+ul, ol{
+  margin-bottom: 1em;
+}
+
+li{
+	margin-left: 1em;
+	list-style: none;
+	color: #404040;
+	background: transparent url(/images/li.gif) no-repeat 0px 0.5em ;
+	padding-left: 14px;
+  /* line-height: 130%; */
+}
+
+strong{
+	color: #772222;
+	background-color: transparent;
+	font-weight: bold;
+}
+em{
+	font-weight: bold;
+	font-style: normal;
+}
+address{
+	font-style: normal;
+}
+
+blockquote {
+  border: 1px solid #D1D3E8;
+  padding: 0.5em;
+  margin: 1em;
+  background-color: #E9ECF2;
+}
+
+/* classes */
+
+.feed{
+  font-size: 85%;
+}
+
+.feed li{
+  background-image: none;
+  margin: 0px;
+  padding: 5px 1em 5px 1em;
+  border: 0px;
+}
+
+.section{
+  margin-bottom: 1em;
+}
+
+.section .section{
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+
+.details{
+ text-align: right;
+}
+
+/*
+.sub-section{
+	margin-bottom: 1em;
+}
+.sub-sub-section{
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+*/
+
+p.notice{
+	font-size: 85%;
+	margin: 2em !important;
+	border: 1px solid #D0D0D0;
+	padding: 8px;
+	text-indent: 0px;
+	color: #000000;
+	background-color: #E9ECF2;
+}
+
+p.alert{
+	font-size: 90%;
+	font-weight: bold;
+	margin: 2em !important;
+	border: 1px solid #A06060;
+	padding: 8px;
+	text-indent: 0px;
+	color: #3A0909;
+	background-color: #E9ACA2;
+}
+
+.sticker{
+	display: inline;
+}
+
+pre.php{
+	margin: 1em; 
+  padding: 0.5em;
+	background-color: #E9ECF2;
+  font-size: 85%;
+}
+
+pre.template{
+	line-height: 1em;
+	margin: 1em; 
+  padding: 0.5em;
+	background-color: #E9ECF2;
+  font-size: 90%;
+}

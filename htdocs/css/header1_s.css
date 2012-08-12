@@ -1,0 +1,47 @@
+@import url(header1.css);
+
+#header{
+  padding-top: 2px ;
+}
+
+#phpug-logo{
+  display: none;
+}
+
+#header h1 a:link,
+#header h1 a:visited{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#header h1.en{
+  display: block;
+  float: left;
+  width: 29%;
+  overflow: hidden;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  background-color: transparent;
+  font-size: 85%;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+#header h1.ja{
+  display: none;
+}
+
+#navigation{
+  font-size: 85%;
+}
+
+#navigation a:link{
+  padding: 1px 0.5em 1px 0.5em;
+}
+#navigation a:visited{
+  padding: 1px 0.5em 1px 0.5em;
+}
+#navigation a:hover{
+  padding: 1px 0.5em 1px 0.5em;
+}

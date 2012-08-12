@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>PHPニュース</title>
+        <description>PHPに関するニュースを配信しています。</description>
+        <link>http://news.php.gr.jp/</link>
+        <lastBuildDate>Thu, 22 Dec 2005 14:50:14 +0900</lastBuildDate>
+        <generator>FeedCreator 1.7.2</generator>
+        <item>
+            <title>aaa</title>
+            <link></link>
+            <description>PHP 5.1.1 が リリースされました　くわしくはPHP.NET(http://www.php.net/)へ　PHP 5.1.1 ChangeLog(http://www.php.net/ChangeLog-5.php#5.1.1)　Downloads Page(http://www.php.n...</description>
+            <author>dw</author>
+            <pubDate>Thu, 22 Dec 2005 00:00:00 +0900</pubDate>
+        </item>
+        <item>
+            <title>aa</title>
+            <link></link>
+            <description>PHP 5.1.1 が リリースされました　くわしくはPHP.NET(http://www.php.net/)へ　PHP 5.1.1 ChangeLog(http://www.php.net/ChangeLog-5.php#5.1.1)　Downloads Page(http://www.php.n...</description>
+            <author>dfs</author>
+            <pubDate>Thu, 22 Dec 2005 00:00:00 +0900</pubDate>
+        </item>
+        <item>
+            <title>php|tek 2006 - Call for Papers</title>
+            <link></link>
+            <description>php|architect magazine is proud to announce php|tek 2006, an exclusive three-day conference (plus one day of exclusive in-depth seminars) dedicated to...</description>
+            <author>名無し</author>
+            <pubDate>Thu, 01 Dec 2005 00:00:00 +0900</pubDate>
+        </item>
+        <item>
+            <title>PHP 5.1.1 Released</title>
+            <link></link>
+            <description>The PHP Development Team would like to announce the immediate release of PHP 5.1.1.This is a regression correction release aimed at addressing several...</description>
+            <author>名無し</author>
+            <pubDate>Mon, 28 Nov 2005 00:00:00 +0900</pubDate>
+        </item>
+    </channel>
+</rss>

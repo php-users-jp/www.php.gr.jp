@@ -1,0 +1,90 @@
+/* header */
+
+#header {font:13px arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;} 
+#header * {line-height:1.44em;} 
+
+#header{
+  background: #777BB4 url(/images/header-bg.png) bottom repeat-x;
+  padding: 9px 1% 5px 1%;
+  margin: 0px;
+  border: 0px;
+  /* _padding-bottom: 1px; */
+}
+
+#header img{
+  border: none;
+}
+
+#phpug-logo{
+  float: left;
+  width: 29%;
+  overflow: hidden;
+  background: #777BB4;
+}
+
+#header h1{
+  display: none;
+}
+
+#navigation{
+  float: right;
+  width: 68%;
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+  font-size: 100%;
+  color: #FFFFFF;
+}
+#navigation ul{
+  /* z-index: 2; */
+  text-align: right;
+  margin: 0px;
+  padding: 0px;
+}
+#navigation li{
+  display: inline;
+  color: #FFFFFF;
+  background-color: #777BB4;
+  background-image: none;
+  border-left: 1px #878BC4 solid;
+  padding-left: 2px;
+  padding-right: 0px;
+  margin: 0px;
+  padding: 0px;
+  white-space: nowrap;
+  _white-space: normal;
+}
+#navigation a:link{
+  color: #FFFFFF;
+  background-color: transparent;
+  margin: 0px;
+  padding: 5px 0.5em 5px 0.5em;
+  text-decoration: none;
+}
+#navigation a:visited{
+  color: #FFFFFF;
+  background-color: transparent;
+  margin: 0px;
+  padding: 5px 0.5em 5px 0.5em;
+  text-decoration: none;
+}
+#navigation a:hover{
+  color: #FFF6CE;
+  background-color: #878BC4;
+  margin: 0px;
+  padding: 5px 0.5em 5px 0.5em;
+  text-decoration: none;
+}
+#navigation .menu-point a:link,
+#navigation .menu-point a:visited,
+#navigation .menu-point a:hover{
+  font-weight: bold;
+  color: #2F265E;
+  background-color: #979BD4;
+}
+
+#header .tail{
+  clear: both;
+  margin: 0px;
+  padding: 0px;
+}

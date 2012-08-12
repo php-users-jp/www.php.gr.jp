@@ -1,0 +1,106 @@
+
+#main{
+  clear: both;
+  padding: 10px 2% 10px 2%;
+  margin: 0px;
+  border: 0px;
+}
+
+/* for 2 column layout */
+#sub-body{
+  float: left;
+  padding: 10px 2% 10px 0%;
+  margin: 0px;
+  border: 0px;
+  width: 28%;
+  overflow: hidden;
+}
+
+#main-body{
+  float: left;
+  padding: 10px 0% 10px 2%;
+  margin: 0px;
+  border: 0px;
+  width: 68%;
+  overflow: hidden;
+}
+
+#main .tail{
+  clear: both;
+  margin: 0px;
+}
+
+#description-section table{
+	border-collapse: collapse;
+	border-spacing: 0px;
+	empty-cells: show;
+
+}
+
+#description-section th{
+	font-weight: bold;
+	text-align: center;
+	vertical-align: top;
+	width: 100px;
+	color: #333333;
+	background-color: #E9ECF2;
+	padding: 5px;
+	border: 1px solid #C0C0C0;
+}
+
+#description-section td{
+	color: #000000;
+	background-color: #F9F9FC;
+	padding: 5px;
+	border: 1px solid #C0C0C0;
+}
+
+#description-section td p{
+	margin: 0px;
+	text-indent: 0;
+}
+
+#description-section ul,
+#description-section li{
+	margin: 0px;
+}
+
+.navigation{
+	text-align: right;
+}
+.seminar-form li{
+	list-style: none ;
+	background-image: none;
+	line-height: 1.6;
+}
+.seminar-form .text{
+	width: 30em;
+}
+.seminar-form-navigation{
+	text-align: center;
+}
+.seminar-confirm-form .text,
+.seminar-confirm-form li{
+	font-weight: bold;
+	color: #505050;
+	background-color: #EEEEFE;
+	background-image: none;
+	margin-left: 1em;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	border: 1px solid #CDCDE0;
+}
+
+#seminar-program td {
+	vertical-align: top;
+}
+
+.seminar-title {
+	font-weight: bold;
+}
+
+.seminar-talker {
+	text-align: right;
+}
